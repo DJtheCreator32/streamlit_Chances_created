@@ -2,3 +2,4 @@ pandas
 mplsoccer
 tqdm
 highlight-text
+beautifulsoup4
