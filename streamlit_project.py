@@ -116,7 +116,7 @@ if filtered_df is None or filtered_df.empty:
     filtered_df = pd.DataFrame(columns=df.columns)  # Avoid errors
 
 # Create Pitch
-pitch = VerticalPitch(pitch_type='opta', pitch_color='#ffffff', line_color='#000000', line_zorder=0.1, linewidth=0.5)
+pitch = VerticalPitch(pitch_type='opta', pitch_color='#ffffff', line_color='#000000', line_zorder=0.1, linewidth=0.5, half=True)
 fig, ax = pitch.draw(figsize=(10, 10))
 
 # Function to plot passes
