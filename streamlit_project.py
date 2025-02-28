@@ -61,9 +61,6 @@ st.subheader("필터를 통해 기회 창출한 패스들을 보세요!")
 # Load Data
 df = pd.read_csv('CagJuv.csv')
 
-# Streamlit UI
-st.title("칼리아리 vs 유벤투스 기회 창출")
-st.subheader("필터를 통해 기회 창출한 패스들을 보세요!")
 
 # Column mapping
 column_mapping = {
